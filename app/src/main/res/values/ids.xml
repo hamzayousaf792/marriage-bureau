@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar" type="id" />
+    <item name="submit_button" type="id" />
+    <item name="age_input" type="id" />
+    <item name="name_input" type="id" />
+    <item name="tv_user_details" type="id" />
+</resources>

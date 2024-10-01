@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground"
+
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E_mail"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="2dp" />
+
+    <EditText
+        android:id="@+id/admin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Admin Email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="2dp" />
+
+    <EditText
+        android:id="@+id/admin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Admin Password"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_admin_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D62B2B"
+        android:text="Login" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
